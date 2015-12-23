@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (3.1.3)
+  - APLTextView (0.0.4)
+  - MBProgressHUD (0.9.1)
+  - RongCloudIMKit (2.2.11)
+  - TNCheckBoxGroup (0.1)
+  - VPImageCropper (0.0.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - APLTextView
+  - MBProgressHUD (~> 0.9.1)
+  - RongCloudIMKit (= 2.2.11)
+  - TNCheckBoxGroup
+  - VPImageCropper
+
+SPEC CHECKSUMS:
+  Alamofire: 9f93b56389e48def9220dd57d1f44b1927229a5a
+  APLTextView: 54a7fda59d961e93d885ca2f82317bf56b47f4ce
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  RongCloudIMKit: 9268043d0b4cdc5fd39a23d43d7115a3f913c6e7
+  TNCheckBoxGroup: a68af5c69d292dcdf963bfab9496ed8e3f73689f
+  VPImageCropper: f4895315460bd05fbb22dbee6b063bdd43f25797
+
+COCOAPODS: 0.39.0

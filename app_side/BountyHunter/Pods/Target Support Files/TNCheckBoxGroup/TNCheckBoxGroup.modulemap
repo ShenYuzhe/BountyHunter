@@ -1,0 +1,6 @@
+framework module TNCheckBoxGroup {
+  umbrella header "TNCheckBoxGroup-umbrella.h"
+
+  export *
+  module * { export * }
+}

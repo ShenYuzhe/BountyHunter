@@ -1,0 +1,1310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F494989CC1A8857B68A317D5D6860F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF4A151D1BFDFFA70E930431B42491E /* Response.swift */; };
+		05602BFCA575442EF99CA77E499C51B4 /* TNImageCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EC72C883C3656ED3B5A661B9C8CB76 /* TNImageCheckbox.m */; };
+		0681ADC8BAE2C3185F13487BAAB4D9DD /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = E638A14614742FCD3B875A737C8F2C91 /* Upload.swift */; };
+		0F6FCF15CC1F4F05C46539443FDA2AAB /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7F04B024ADCAE6712150D7982A0CBE0 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1114ABCE9477D8BA43120B4D583C07FF /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F66CFF434FF88486A1E3CF2C0E3A22F2 /* VPImageCropperViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		16FF8375399AB8ABCEC4FB1AB857A736 /* APLTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7838B5F5E6BA077E684E321B641BEB7A /* APLTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A7A6594E656A2BC5FF14D097ADC1282 /* TNRectangularCheckBoxData.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D027784E83FF435E709DBC2D63F492 /* TNRectangularCheckBoxData.m */; };
+		1B889E29DC6EAE2F308387E0D3F16124 /* TNCheckBoxDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D55919DA03586A5C6912820A07F1809 /* TNCheckBoxDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E7623B9420C3E71FAE3287C0CECA040 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3CD9C886880E3F539F9083CA29A92A /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		239E690D15CBAC22EFF178DA38E02A65 /* TNRectangularCheckBoxData.h in Headers */ = {isa = PBXBuildFile; fileRef = AB28F12FB4F682C1FF4D20A646AC2F0D /* TNRectangularCheckBoxData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		250FCACDF1742207A94D19A9C1A4E845 /* TNCircularCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 861E62A4668DA16ECD7D2B86AC1A5BCA /* TNCircularCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A0479138E8049ABC654583DBD91EFFA /* TNCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B5C77F9585A5A6FF02032457F53B4E /* TNCheckBoxGroup.m */; };
+		2C5450AC69398958CF6F7539EF7D99E5 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08ED4920ED56EB3E9601DFB4F993F823 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A7592C39A85549AE5A7CF92EFA32DCA /* TNCircularCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8140C425850F38BA91253ED54F83212D /* TNCircularCheckBox.m */; };
+		3CB28CF2F2F166F727BFEB4DF14166D5 /* TNImageCheckbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 217E66163EA0ABD309E44AD290AEB56D /* TNImageCheckbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C42F3F5DD94F29414FB7BF431221AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1264325C4220C1BDC3C73E5D496129FD /* CoreGraphics.framework */; };
+		41C80747881CCAB254F4CD85904FB1D4 /* TNCheckBoxProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9778BB383B34E66DDC42F4610A871C /* TNCheckBoxProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4472CFA9D23B42CCD805B99DC6CE9E79 /* TNRectangularCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C5981B043B09FADF9A325D5B3252DC44 /* TNRectangularCheckBox.m */; };
+		4707BFAF2D20B55621D1BF15D7C0F5AA /* VPImageCropper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA71231A35ABD516DE0AEF461465F8A4 /* VPImageCropper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49EEFFFA21C1E7A9E9D6913D238B7652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		4DE5FCC41D100B113B6645EA64410F16 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F990B100E449F2DE7F728BB148EE6B3 /* ParameterEncoding.swift */; };
+		525B8FC84393544F874906957DE2A40C /* TNCheckBoxData.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E60C81EFB90CFF3284F883D540843E /* TNCheckBoxData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5539A52471BE86459A2C296977E8E6E7 /* VPImageCropper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE5EEEE7DF92D83FCDB2FD2562AB59F /* VPImageCropper-dummy.m */; };
+		55EB4155C2E945E84E0404554D289D00 /* APLTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E97E63DEBF491B61659F0B1FAD248DE /* APLTextView-dummy.m */; };
+		55F07DB6E4F6269AC35C64EDFD34751D /* TNImageCheckBoxData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D407603D002F3BBCFA7BDF021919CC2 /* TNImageCheckBoxData.m */; };
+		564E9EE1394DD3E15D84648E2F6DDE83 /* TNCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = E5BA4111B93E9A51A9EF472850D24886 /* TNCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B5D47DD7C9ADDB5454C31C1FA497910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		6DCA7F700FDF158F8AF4E976FE8C58DC /* TNCheckBoxGroup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF27A2AD70766EEAFF0307254B8DB772 /* TNCheckBoxGroup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DF1940BB5DAC26DCCAB41F3755202E5 /* TNCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8BEDF231AC07AA5AB44872DCD1ED26 /* TNCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E4B5B829C66DC3D008D3D4426189045 /* TNCircularCheckBoxData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0769A34586863873AC61D11AED38C6A9 /* TNCircularCheckBoxData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7223F2D78A55A3B6DF2F4C9373E140BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		80F496237530D382A045A29654D8C11C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742228FD42EFF6919D0B941A78F4A8C4 /* ServerTrustPolicy.swift */; };
+		82066E78F0FBF1BF27DDD2B0773C8DB2 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82971968CBDAB224212EEB4607C9FB8D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9046ED7732CFBC48A68B8D32682566 /* Result.swift */; };
+		8399DBEE3E2D98EB1F466132E476F4D9 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365352271FC554043847010392F83DB /* MultipartFormData.swift */; };
+		8E1BAE3D5110B0B70BCC6172E49CD95D /* VPImageCropperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E9BBF0865E899C77D544752B6076A9 /* VPImageCropperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D99D0C2472535A169DED65CB231CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		974FC179571C62AD90F2B0448EA5C8E2 /* APLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E3E22E7DA478391B850DE5CFD1A4D5 /* APLTextView.m */; };
+		9E17CC11959A1FE5566CE528047ACDC0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7C77EFDB2E4F75CD09532274161E73 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A2C172FE407C0BC3478ADCA91A6C9CEC /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB91B1AD893EFC68E9899442FB4E8114 /* Manager.swift */; };
+		A3505FA2FB3067D53847AD288AC04F03 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE2E2C30EB4F9FDE8852D854BFE0EB3 /* Download.swift */; };
+		A3A4DAD5D81A902D704292E0D47F08D1 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		AFF996DC9253B9F418081574851313DB /* TNCheckBoxData.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C35769893A9319232C2CF55811F438 /* TNCheckBoxData.m */; };
+		B0FB4B01682814B9E3D32F9DC4A5E762 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94290083C11A8D07F582375C2755A09 /* Alamofire.swift */; };
+		B6D2DC3E3DA44CD382B9B425F40E11C1 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1388EF8E530BC56E5EBF205D0E51CD0 /* Alamofire-dummy.m */; };
+		BB010EE04BA829E196554A00A951AA7C /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C40CA2C114041C9364DA983F4BA6827B /* MBProgressHUD-dummy.m */; };
+		C75519F0450166A6F28126ECC7664E9C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC38048F65D55BE9975F07209FD71A7 /* Validation.swift */; };
+		CF3C49BE874B326C1429C8C79AAD19EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		D0F0FAA05CB8509024AA7D2B6D1AD9A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */; };
+		D2123AC3E232878971D4A1105D94DA37 /* TNCircularCheckBoxData.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C0C2BF20CFD8608DA1EA4666DA1693 /* TNCircularCheckBoxData.m */; };
+		D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489622B8AA41C4C4CDEF6F7B2E35589 /* ResponseSerialization.swift */; };
+		D75CA395D510E08C404E55F5BDAE55CE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D257CCD8C05CB39D77B8E55575DD0B1B /* Error.swift */; };
+		E2047A400EB772C3F6921454DF6BF7FF /* TNCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A37C38F7DEB2A261EC550AA3D2CF27 /* TNCheckBox.m */; };
+		E3E5F2E6FF9580312A5C13CE02DCEB2C /* APLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2248359C82625E0E8254B6546325BC90 /* APLTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E99D5CA1ABA495F541D6C98571927599 /* TNRectangularCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 246DE798E2F4DF8C35F0BA98437C0277 /* TNRectangularCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDCF3CD50BE2A4B83A27B741923C2C71 /* TNCheckBoxGroup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F3FE9E579A808A604B4D6FB3A120AC /* TNCheckBoxGroup-dummy.m */; };
+		F0280F026E79E28A239AF47603CA4056 /* TNImageCheckBoxData.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F2ACD228D9C10CC3A502D9E366586D /* TNImageCheckBoxData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC14480CECE872865A9C6E584F886DA3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE99105A1BF88D5B369C62D2130E08DE /* Request.swift */; };
+		FEF0D7653948988B804226129471C1EC /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884B27A340B98EC312D127B16E3F4EC4 /* Stream.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17CD3EF009596F709DD6CFF303133CEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 432ECC54282C84882B482CCB4CF227FC;
+			remoteInfo = Alamofire;
+		};
+		447397FE23C9E21385FF81B31692E931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 225259C2C99D494F2EF890A968B59F5B;
+			remoteInfo = APLTextView;
+		};
+		83B5AD9B9106792B0915ADCCC4DCACE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 479AA6A1AD3DAA795D9A9030996E1367;
+			remoteInfo = VPImageCropper;
+		};
+		93336CDCA1E36D84B551215987FED071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6B921C5A9081E62DE1475EAE1C20242;
+			remoteInfo = TNCheckBoxGroup;
+		};
+		DCEC8F2DBFDB8E996FADFF3BD2111C0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61CE3B6DFA1FE6B3E296965C76C0E10;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B0F4469B277E6275A1E34E9AA54ADE /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		02F79671A9E77F2D1BDF3628C1089FD9 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		03F2ACD228D9C10CC3A502D9E366586D /* TNImageCheckBoxData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TNImageCheckBoxData.h; path = src/TNImageCheckBoxData.h; sourceTree = "<group>"; };
+		0769A34586863873AC61D11AED38C6A9 /* TNCircularCheckBoxData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TNCircularCheckBoxData.h; path = src/TNCircularCheckBoxData.h; sourceTree = "<group>"; };
+		08ED4920ED56EB3E9601DFB4F993F823 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		0B9778BB383B34E66DDC42F4610A871C /* TNCheckBoxProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TNCheckBoxProtocol.h; path = src/TNCheckBoxProtocol.h; sourceTree = "<group>"; };
+		115B473C83C0F1C179C9AD08A32901E9 /* APLTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = APLTextView.modulemap; sourceTree = "<group>"; };
+		118E0E8A166B324030B7DA6371379C40 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		1264325C4220C1BDC3C73E5D496129FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		13C0C2BF20CFD8608DA1EA4666DA1693 /* TNCircularCheckBoxData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TNCircularCheckBoxData.m; path = src/TNCircularCheckBoxData.m; sourceTree = "<group>"; };
+		16DF6A81D24A656318AEC76D0EE06FDA /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A11FFBBFECCD565663F7D136458742 /* APLTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APLTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3CD9C886880E3F539F9083CA29A92A /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		217E66163EA0ABD309E44AD290AEB56D /* TNImageCheckbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TNImageCheckbox.h; path = src/TNImageCheckbox.h; sourceTree = "<group>"; };
+		2248359C82625E0E8254B6546325BC90 /* APLTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APLTextView.h; path = Classes/APLTextView.h; sourceTree = "<group>"; };
+		246DE798E2F4DF8C35F0BA98437C0277 /* TNRectangularCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TNRectangularCheckBox.h; path = src/TNRectangularCheckBox.h; sourceTree = "<group>"; };
+		25C35769893A9319232C2CF55811F438 /* TNCheckBoxData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TNCheckBoxData.m; path = src/TNCheckBoxData.m; sourceTree = "<group>"; };
+		2734D2852C0A2DAFA52AAF0883E2EE8C /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMLib.framework; path = Rong_Cloud_iOS_SDK_v2_2_11_dev/RongIMLib.framework; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		2D801E66FD95726D6BCC2BEC757DB2F2 /* APLTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APLTextView-prefix.pch"; sourceTree = "<group>"; };
+		341B90BE344E8BDE535FAAAF12D5DEF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA0C3B152FFCD76B877A2F145DC90B5 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Rong_Cloud_iOS_SDK_v2_2_11_dev/en.lproj; sourceTree = "<group>"; };
+		3E97E63DEBF491B61659F0B1FAD248DE /* APLTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APLTextView-dummy.m"; sourceTree = "<group>"; };
+		3EF4A151D1BFDFFA70E930431B42491E /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		53326AC0C9808E91CC18609C629642DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53747D1F297F3011C79FF4357609BF05 /* TNCheckBoxGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TNCheckBoxGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D1FFD34DD4C22C80F5E8A9885AEC35 /* Emoji.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Emoji.plist; path = Rong_Cloud_iOS_SDK_v2_2_11_dev/Emoji.plist; sourceTree = "<group>"; };
+		5D407603D002F3BBCFA7BDF021919CC2 /* TNImageCheckBoxData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TNImageCheckBoxData.m; path = src/TNImageCheckBoxData.m; sourceTree = "<group>"; };
+		5D55919DA03586A5C6912820A07F1809 /* TNCheckBoxDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TNCheckBoxDelegate.h; path = src/TNCheckBoxDelegate.h; sourceTree = "<group>"; };
+		5F990B100E449F2DE7F728BB148EE6B3 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		6DE5EEEE7DF92D83FCDB2FD2562AB59F /* VPImageCropper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VPImageCropper-dummy.m"; sourceTree = "<group>"; };
+		6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7005A84DBC7453D6E57108313A9C4472 /* APLTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APLTextView.xcconfig; sourceTree = "<group>"; };
+		718C200B58F3AF276C3FC06281DB13EF /* VPImageCropper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPImageCropper-prefix.pch"; sourceTree = "<group>"; };
+		72E9BBF0865E899C77D544752B6076A9 /* VPImageCropperViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VPImageCropperViewController.h; path = VPImageCropperDemo/VPImageCropper/VPImageCropperViewController.h; sourceTree = "<group>"; };
+		742228FD42EFF6919D0B941A78F4A8C4 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		743460E693F7DC2EC56A565C4671BF02 /* VPImageCropper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPImageCropper.xcconfig; sourceTree = "<group>"; };
+		7680BFA6FC6508E86AD116D1C7CC23CE /* VPImageCropper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VPImageCropper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7838B5F5E6BA077E684E321B641BEB7A /* APLTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APLTextView-umbrella.h"; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7B86EDC557633B505D9354F9F37E6DA8 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		7B8BEDF231AC07AA5AB44872DCD1ED26 /* TNCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TNCheckBox.h; path = src/TNCheckBox.h; sourceTree = "<group>"; };
+		8140C425850F38BA91253ED54F83212D /* TNCircularCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TNCircularCheckBox.m; path = src/TNCircularCheckBox.m; sourceTree = "<group>"; };
+		8489622B8AA41C4C4CDEF6F7B2E35589 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		861E62A4668DA16ECD7D2B86AC1A5BCA /* TNCircularCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TNCircularCheckBox.h; path = src/TNCircularCheckBox.h; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		884B27A340B98EC312D127B16E3F4EC4 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8D3CE1E440B0897256A2F897D22E800D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E82930D554F1FBF752D83E0DF959CD8 /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMKit.framework; path = Rong_Cloud_iOS_SDK_v2_2_11_dev/RongIMKit.framework; sourceTree = "<group>"; };
+		904356505C57E3BF7AC45EF02B1FBAE6 /* TNCheckBoxGroup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TNCheckBoxGroup.modulemap; sourceTree = "<group>"; };
+		92E60C81EFB90CFF3284F883D540843E /* TNCheckBoxData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TNCheckBoxData.h; path = src/TNCheckBoxData.h; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		9EE2E2C30EB4F9FDE8852D854BFE0EB3 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		9F9046ED7732CFBC48A68B8D32682566 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		A2EC72C883C3656ED3B5A661B9C8CB76 /* TNImageCheckbox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TNImageCheckbox.m; path = src/TNImageCheckbox.m; sourceTree = "<group>"; };
+		A7F04B024ADCAE6712150D7982A0CBE0 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		A94290083C11A8D07F582375C2755A09 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		AB28F12FB4F682C1FF4D20A646AC2F0D /* TNRectangularCheckBoxData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TNRectangularCheckBoxData.h; path = src/TNRectangularCheckBoxData.h; sourceTree = "<group>"; };
+		AEDDE522463F55A29D97F1B105EC9E07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC1FD83ED9E856565C3DC8E007289348 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		BCC38048F65D55BE9975F07209FD71A7 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		BF812BF6715BA5E720181244B4D3B2C3 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "Rong_Cloud_iOS_SDK_v2_2_11_dev/zh-Hans.lproj"; sourceTree = "<group>"; };
+		C04D7D48F65A2EC7CE8A56958BB5C101 /* TNCheckBoxGroup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TNCheckBoxGroup-prefix.pch"; sourceTree = "<group>"; };
+		C0F28A3CA85EC4445A42D1CC62F8ED72 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40CA2C114041C9364DA983F4BA6827B /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		C5981B043B09FADF9A325D5B3252DC44 /* TNRectangularCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TNRectangularCheckBox.m; path = src/TNRectangularCheckBox.m; sourceTree = "<group>"; };
+		C8E3E22E7DA478391B850DE5CFD1A4D5 /* APLTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APLTextView.m; path = Classes/APLTextView.m; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D257CCD8C05CB39D77B8E55575DD0B1B /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		D6D027784E83FF435E709DBC2D63F492 /* TNRectangularCheckBoxData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TNRectangularCheckBoxData.m; path = src/TNRectangularCheckBoxData.m; sourceTree = "<group>"; };
+		D6F3FE9E579A808A604B4D6FB3A120AC /* TNCheckBoxGroup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TNCheckBoxGroup-dummy.m"; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DA71231A35ABD516DE0AEF461465F8A4 /* VPImageCropper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPImageCropper-umbrella.h"; sourceTree = "<group>"; };
+		DAE87C71D8207213F058B037D1ABA821 /* VPImageCropper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VPImageCropper.modulemap; sourceTree = "<group>"; };
+		DC1B6CDFD95DC407C44025C73E0AE0B6 /* TNCheckBoxGroup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TNCheckBoxGroup.xcconfig; sourceTree = "<group>"; };
+		DD02A62373035B40B992DA7AF6DDAA5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1388EF8E530BC56E5EBF205D0E51CD0 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		E5BA4111B93E9A51A9EF472850D24886 /* TNCheckBoxGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TNCheckBoxGroup.h; path = src/TNCheckBoxGroup.h; sourceTree = "<group>"; };
+		E638A14614742FCD3B875A737C8F2C91 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB5FAF563E7BB698566B7B260909C476 /* RongCloud.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RongCloud.bundle; path = Rong_Cloud_iOS_SDK_v2_2_11_dev/RongCloud.bundle; sourceTree = "<group>"; };
+		EB91B1AD893EFC68E9899442FB4E8114 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		ED7C77EFDB2E4F75CD09532274161E73 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EF27A2AD70766EEAFF0307254B8DB772 /* TNCheckBoxGroup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TNCheckBoxGroup-umbrella.h"; sourceTree = "<group>"; };
+		F1B5C77F9585A5A6FF02032457F53B4E /* TNCheckBoxGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TNCheckBoxGroup.m; path = src/TNCheckBoxGroup.m; sourceTree = "<group>"; };
+		F365352271FC554043847010392F83DB /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		F62B60DDED086C86D1CEEA42A68C77F7 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		F66CFF434FF88486A1E3CF2C0E3A22F2 /* VPImageCropperViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VPImageCropperViewController.m; path = VPImageCropperDemo/VPImageCropper/VPImageCropperViewController.m; sourceTree = "<group>"; };
+		F8A37C38F7DEB2A261EC550AA3D2CF27 /* TNCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TNCheckBox.m; path = src/TNCheckBox.m; sourceTree = "<group>"; };
+		FB7904C509DB78BFC3A17877C3C6C7CA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE99105A1BF88D5B369C62D2130E08DE /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D64F9EF3768386CD42778961EDF52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5D47DD7C9ADDB5454C31C1FA497910 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6488DB2C9BB99C53077D390CE673DD56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C42F3F5DD94F29414FB7BF431221AC /* CoreGraphics.framework in Frameworks */,
+				7223F2D78A55A3B6DF2F4C9373E140BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38BE274F6CDE9271BFB26F515EE4C73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F0FAA05CB8509024AA7D2B6D1AD9A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AE1D340C4A0691EC28EEA8241C9FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D99D0C2472535A169DED65CB231CD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE96B50FF27D2928D176CBE3356A7D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EEFFFA21C1E7A9E9D6913D238B7652 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCFC005B19D1A1A9891E293FF24E251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3C49BE874B326C1429C8C79AAD19EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36C06A02A00144C64CD7282BA31846BD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1264325C4220C1BDC3C73E5D496129FD /* CoreGraphics.framework */,
+				6E093D627869B650AB8D6411D2DE6B7A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36C06A02A00144C64CD7282BA31846BD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		665F1EC6B7BE0A1F17C4DC9F664B0D16 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				A94290083C11A8D07F582375C2755A09 /* Alamofire.swift */,
+				9EE2E2C30EB4F9FDE8852D854BFE0EB3 /* Download.swift */,
+				D257CCD8C05CB39D77B8E55575DD0B1B /* Error.swift */,
+				EB91B1AD893EFC68E9899442FB4E8114 /* Manager.swift */,
+				F365352271FC554043847010392F83DB /* MultipartFormData.swift */,
+				5F990B100E449F2DE7F728BB148EE6B3 /* ParameterEncoding.swift */,
+				FE99105A1BF88D5B369C62D2130E08DE /* Request.swift */,
+				3EF4A151D1BFDFFA70E930431B42491E /* Response.swift */,
+				8489622B8AA41C4C4CDEF6F7B2E35589 /* ResponseSerialization.swift */,
+				9F9046ED7732CFBC48A68B8D32682566 /* Result.swift */,
+				742228FD42EFF6919D0B941A78F4A8C4 /* ServerTrustPolicy.swift */,
+				884B27A340B98EC312D127B16E3F4EC4 /* Stream.swift */,
+				E638A14614742FCD3B875A737C8F2C91 /* Upload.swift */,
+				BCC38048F65D55BE9975F07209FD71A7 /* Validation.swift */,
+				D4AAE00F0524C31CBA8A012D54F1EB34 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		6E88A029C71BD3B9FC5A596127C0F391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E82930D554F1FBF752D83E0DF959CD8 /* RongIMKit.framework */,
+				2734D2852C0A2DAFA52AAF0883E2EE8C /* RongIMLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72280692E523B13D9E1E5D6C1C0E0A0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				115B473C83C0F1C179C9AD08A32901E9 /* APLTextView.modulemap */,
+				7005A84DBC7453D6E57108313A9C4472 /* APLTextView.xcconfig */,
+				3E97E63DEBF491B61659F0B1FAD248DE /* APLTextView-dummy.m */,
+				2D801E66FD95726D6BCC2BEC757DB2F2 /* APLTextView-prefix.pch */,
+				7838B5F5E6BA077E684E321B641BEB7A /* APLTextView-umbrella.h */,
+				53326AC0C9808E91CC18609C629642DA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APLTextView";
+			sourceTree = "<group>";
+		};
+		746D847765151C5F63E509E0924FFE68 /* TNCheckBoxGroup */ = {
+			isa = PBXGroup;
+			children = (
+				7B8BEDF231AC07AA5AB44872DCD1ED26 /* TNCheckBox.h */,
+				F8A37C38F7DEB2A261EC550AA3D2CF27 /* TNCheckBox.m */,
+				92E60C81EFB90CFF3284F883D540843E /* TNCheckBoxData.h */,
+				25C35769893A9319232C2CF55811F438 /* TNCheckBoxData.m */,
+				5D55919DA03586A5C6912820A07F1809 /* TNCheckBoxDelegate.h */,
+				E5BA4111B93E9A51A9EF472850D24886 /* TNCheckBoxGroup.h */,
+				F1B5C77F9585A5A6FF02032457F53B4E /* TNCheckBoxGroup.m */,
+				0B9778BB383B34E66DDC42F4610A871C /* TNCheckBoxProtocol.h */,
+				861E62A4668DA16ECD7D2B86AC1A5BCA /* TNCircularCheckBox.h */,
+				8140C425850F38BA91253ED54F83212D /* TNCircularCheckBox.m */,
+				0769A34586863873AC61D11AED38C6A9 /* TNCircularCheckBoxData.h */,
+				13C0C2BF20CFD8608DA1EA4666DA1693 /* TNCircularCheckBoxData.m */,
+				217E66163EA0ABD309E44AD290AEB56D /* TNImageCheckbox.h */,
+				A2EC72C883C3656ED3B5A661B9C8CB76 /* TNImageCheckbox.m */,
+				03F2ACD228D9C10CC3A502D9E366586D /* TNImageCheckBoxData.h */,
+				5D407603D002F3BBCFA7BDF021919CC2 /* TNImageCheckBoxData.m */,
+				246DE798E2F4DF8C35F0BA98437C0277 /* TNRectangularCheckBox.h */,
+				C5981B043B09FADF9A325D5B3252DC44 /* TNRectangularCheckBox.m */,
+				AB28F12FB4F682C1FF4D20A646AC2F0D /* TNRectangularCheckBoxData.h */,
+				D6D027784E83FF435E709DBC2D63F492 /* TNRectangularCheckBoxData.m */,
+				C2A11CA044B94823753EAEA2868FACAA /* Support Files */,
+			);
+			path = TNCheckBoxGroup;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				AA20552E2CEBF626557C5B6897BF5052 /* Pods */,
+				D22537779B37563BFFB104EF7D56EFA1 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85B8A5CEF4F3DBCEB7F001BEE09AC514 /* VPImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				72E9BBF0865E899C77D544752B6076A9 /* VPImageCropperViewController.h */,
+				F66CFF434FF88486A1E3CF2C0E3A22F2 /* VPImageCropperViewController.m */,
+				AD83845AD39D8086F27299859D69688D /* Support Files */,
+			);
+			path = VPImageCropper;
+			sourceTree = "<group>";
+		};
+		A8A6181B7759946FF5D771A94A487E40 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D3CE1E440B0897256A2F897D22E800D /* Info.plist */,
+				7B86EDC557633B505D9354F9F37E6DA8 /* MBProgressHUD.modulemap */,
+				F62B60DDED086C86D1CEEA42A68C77F7 /* MBProgressHUD.xcconfig */,
+				C40CA2C114041C9364DA983F4BA6827B /* MBProgressHUD-dummy.m */,
+				02F79671A9E77F2D1BDF3628C1089FD9 /* MBProgressHUD-prefix.pch */,
+				A7F04B024ADCAE6712150D7982A0CBE0 /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		AA20552E2CEBF626557C5B6897BF5052 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				665F1EC6B7BE0A1F17C4DC9F664B0D16 /* Alamofire */,
+				DE06F5D704B7CEDCB6FDA9E44C8BD333 /* APLTextView */,
+				B53366FAD2E5CD07E052DA13147FC427 /* MBProgressHUD */,
+				CE5F7B98DB0FABCBF614109C2A117FAB /* RongCloudIMKit */,
+				746D847765151C5F63E509E0924FFE68 /* TNCheckBoxGroup */,
+				85B8A5CEF4F3DBCEB7F001BEE09AC514 /* VPImageCropper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD83845AD39D8086F27299859D69688D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				341B90BE344E8BDE535FAAAF12D5DEF4 /* Info.plist */,
+				DAE87C71D8207213F058B037D1ABA821 /* VPImageCropper.modulemap */,
+				743460E693F7DC2EC56A565C4671BF02 /* VPImageCropper.xcconfig */,
+				6DE5EEEE7DF92D83FCDB2FD2562AB59F /* VPImageCropper-dummy.m */,
+				718C200B58F3AF276C3FC06281DB13EF /* VPImageCropper-prefix.pch */,
+				DA71231A35ABD516DE0AEF461465F8A4 /* VPImageCropper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VPImageCropper";
+			sourceTree = "<group>";
+		};
+		B53366FAD2E5CD07E052DA13147FC427 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1A3CD9C886880E3F539F9083CA29A92A /* MBProgressHUD.h */,
+				ED7C77EFDB2E4F75CD09532274161E73 /* MBProgressHUD.m */,
+				A8A6181B7759946FF5D771A94A487E40 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C2A11CA044B94823753EAEA2868FACAA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD02A62373035B40B992DA7AF6DDAA5F /* Info.plist */,
+				904356505C57E3BF7AC45EF02B1FBAE6 /* TNCheckBoxGroup.modulemap */,
+				DC1B6CDFD95DC407C44025C73E0AE0B6 /* TNCheckBoxGroup.xcconfig */,
+				D6F3FE9E579A808A604B4D6FB3A120AC /* TNCheckBoxGroup-dummy.m */,
+				C04D7D48F65A2EC7CE8A56958BB5C101 /* TNCheckBoxGroup-prefix.pch */,
+				EF27A2AD70766EEAFF0307254B8DB772 /* TNCheckBoxGroup-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TNCheckBoxGroup";
+			sourceTree = "<group>";
+		};
+		CE5F7B98DB0FABCBF614109C2A117FAB /* RongCloudIMKit */ = {
+			isa = PBXGroup;
+			children = (
+				6E88A029C71BD3B9FC5A596127C0F391 /* Frameworks */,
+				EC82A743A77597C63364A75B2F4BCEF0 /* Resources */,
+			);
+			path = RongCloudIMKit;
+			sourceTree = "<group>";
+		};
+		D22537779B37563BFFB104EF7D56EFA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0F28A3CA85EC4445A42D1CC62F8ED72 /* Alamofire.framework */,
+				19A11FFBBFECCD565663F7D136458742 /* APLTextView.framework */,
+				16DF6A81D24A656318AEC76D0EE06FDA /* MBProgressHUD.framework */,
+				FB7904C509DB78BFC3A17877C3C6C7CA /* Pods.framework */,
+				53747D1F297F3011C79FF4357609BF05 /* TNCheckBoxGroup.framework */,
+				7680BFA6FC6508E86AD116D1C7CC23CE /* VPImageCropper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4AAE00F0524C31CBA8A012D54F1EB34 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				118E0E8A166B324030B7DA6371379C40 /* Alamofire.modulemap */,
+				02B0F4469B277E6275A1E34E9AA54ADE /* Alamofire.xcconfig */,
+				E1388EF8E530BC56E5EBF205D0E51CD0 /* Alamofire-dummy.m */,
+				BC1FD83ED9E856565C3DC8E007289348 /* Alamofire-prefix.pch */,
+				08ED4920ED56EB3E9601DFB4F993F823 /* Alamofire-umbrella.h */,
+				AEDDE522463F55A29D97F1B105EC9E07 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		DE06F5D704B7CEDCB6FDA9E44C8BD333 /* APLTextView */ = {
+			isa = PBXGroup;
+			children = (
+				2248359C82625E0E8254B6546325BC90 /* APLTextView.h */,
+				C8E3E22E7DA478391B850DE5CFD1A4D5 /* APLTextView.m */,
+				72280692E523B13D9E1E5D6C1C0E0A0C /* Support Files */,
+			);
+			path = APLTextView;
+			sourceTree = "<group>";
+		};
+		EC82A743A77597C63364A75B2F4BCEF0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54D1FFD34DD4C22C80F5E8A9885AEC35 /* Emoji.plist */,
+				3CA0C3B152FFCD76B877A2F145DC90B5 /* en.lproj */,
+				EB5FAF563E7BB698566B7B260909C476 /* RongCloud.bundle */,
+				BF812BF6715BA5E720181244B4D3B2C3 /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D682AF8B1F393B4424259C2E6B5FC09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82066E78F0FBF1BF27DDD2B0773C8DB2 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7B61281F714E2A64A51E80A2C9C062 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5450AC69398958CF6F7539EF7D99E5 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECCB5570B7FBF8D348655FFA0FE9C90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6FCF15CC1F4F05C46539443FDA2AAB /* MBProgressHUD-umbrella.h in Headers */,
+				1E7623B9420C3E71FAE3287C0CECA040 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A82F3DC280DC4BEFF897B86EC3803F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4707BFAF2D20B55621D1BF15D7C0F5AA /* VPImageCropper-umbrella.h in Headers */,
+				8E1BAE3D5110B0B70BCC6172E49CD95D /* VPImageCropperViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4D6A0E700793497415E7E886250072 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF1940BB5DAC26DCCAB41F3755202E5 /* TNCheckBox.h in Headers */,
+				525B8FC84393544F874906957DE2A40C /* TNCheckBoxData.h in Headers */,
+				1B889E29DC6EAE2F308387E0D3F16124 /* TNCheckBoxDelegate.h in Headers */,
+				6DCA7F700FDF158F8AF4E976FE8C58DC /* TNCheckBoxGroup-umbrella.h in Headers */,
+				564E9EE1394DD3E15D84648E2F6DDE83 /* TNCheckBoxGroup.h in Headers */,
+				41C80747881CCAB254F4CD85904FB1D4 /* TNCheckBoxProtocol.h in Headers */,
+				250FCACDF1742207A94D19A9C1A4E845 /* TNCircularCheckBox.h in Headers */,
+				6E4B5B829C66DC3D008D3D4426189045 /* TNCircularCheckBoxData.h in Headers */,
+				3CB28CF2F2F166F727BFEB4DF14166D5 /* TNImageCheckbox.h in Headers */,
+				F0280F026E79E28A239AF47603CA4056 /* TNImageCheckBoxData.h in Headers */,
+				E99D5CA1ABA495F541D6C98571927599 /* TNRectangularCheckBox.h in Headers */,
+				239E690D15CBAC22EFF178DA38E02A65 /* TNRectangularCheckBoxData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0027CCA068B36FCF0736BA6E439E2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FF8375399AB8ABCEC4FB1AB857A736 /* APLTextView-umbrella.h in Headers */,
+				E3E5F2E6FF9580312A5C13CE02DCEB2C /* APLTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		225259C2C99D494F2EF890A968B59F5B /* APLTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DFD35E23E096E6184B8D2EFB5A5F09 /* Build configuration list for PBXNativeTarget "APLTextView" */;
+			buildPhases = (
+				2704328B00A8205E97638CBB5BAEA8D9 /* Sources */,
+				A38BE274F6CDE9271BFB26F515EE4C73 /* Frameworks */,
+				EC0027CCA068B36FCF0736BA6E439E2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APLTextView;
+			productName = APLTextView;
+			productReference = 19A11FFBBFECCD565663F7D136458742 /* APLTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EF6C393844294D828EA911BBB0E6A6D /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4020207FE643057BD4DB8AE103259E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				432C957D8D18B3A6C152197CACDA4D77 /* Sources */,
+				DBCFC005B19D1A1A9891E293FF24E251 /* Frameworks */,
+				1D682AF8B1F393B4424259C2E6B5FC09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D0C68239ADBFF5E8AE1E448255E698 /* PBXTargetDependency */,
+				1841DE5B4B59417A4212D530D0E0E934 /* PBXTargetDependency */,
+				DCDEC9E4EB71603095B1B3CE722DACCF /* PBXTargetDependency */,
+				B70EE44FD3D3E2E2035C36E3A9F666B9 /* PBXTargetDependency */,
+				6A92C305FC0A7E6528E46D5734F8A2CD /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = FB7904C509DB78BFC3A17877C3C6C7CA /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		432ECC54282C84882B482CCB4CF227FC /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2B2DA2F7F80D41B1FDB5FACFA4B3DE /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				EF659EFF40D426A3A32A82CDB98CC6EE /* Sources */,
+				A5AE1D340C4A0691EC28EEA8241C9FCD /* Frameworks */,
+				5F7B61281F714E2A64A51E80A2C9C062 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = C0F28A3CA85EC4445A42D1CC62F8ED72 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		479AA6A1AD3DAA795D9A9030996E1367 /* VPImageCropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA92976B83D85D1B5C582F8DB3625FF /* Build configuration list for PBXNativeTarget "VPImageCropper" */;
+			buildPhases = (
+				322A48E8C6EE286B16ED2150D3FEFB12 /* Sources */,
+				BE96B50FF27D2928D176CBE3356A7D89 /* Frameworks */,
+				A9A82F3DC280DC4BEFF897B86EC3803F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPImageCropper;
+			productName = VPImageCropper;
+			productReference = 7680BFA6FC6508E86AD116D1C7CC23CE /* VPImageCropper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6B921C5A9081E62DE1475EAE1C20242 /* TNCheckBoxGroup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3BDC339AEA1C67DD9594FA87AE93F56 /* Build configuration list for PBXNativeTarget "TNCheckBoxGroup" */;
+			buildPhases = (
+				E63F75A23C872D6F3FD45C54B9456AFD /* Sources */,
+				18D64F9EF3768386CD42778961EDF52D /* Frameworks */,
+				DF4D6A0E700793497415E7E886250072 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TNCheckBoxGroup;
+			productName = TNCheckBoxGroup;
+			productReference = 53747D1F297F3011C79FF4357609BF05 /* TNCheckBoxGroup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ECAD3CE95CA19E5AFE91894C857527C /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				2DAFB06DF9D4B76E7F94DA2B8A63DD59 /* Sources */,
+				6488DB2C9BB99C53077D390CE673DD56 /* Frameworks */,
+				9ECCB5570B7FBF8D348655FFA0FE9C90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 16DF6A81D24A656318AEC76D0EE06FDA /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D22537779B37563BFFB104EF7D56EFA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				432ECC54282C84882B482CCB4CF227FC /* Alamofire */,
+				225259C2C99D494F2EF890A968B59F5B /* APLTextView */,
+				E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */,
+				3EF6C393844294D828EA911BBB0E6A6D /* Pods */,
+				D6B921C5A9081E62DE1475EAE1C20242 /* TNCheckBoxGroup */,
+				479AA6A1AD3DAA795D9A9030996E1367 /* VPImageCropper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2704328B00A8205E97638CBB5BAEA8D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55EB4155C2E945E84E0404554D289D00 /* APLTextView-dummy.m in Sources */,
+				974FC179571C62AD90F2B0448EA5C8E2 /* APLTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DAFB06DF9D4B76E7F94DA2B8A63DD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB010EE04BA829E196554A00A951AA7C /* MBProgressHUD-dummy.m in Sources */,
+				9E17CC11959A1FE5566CE528047ACDC0 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322A48E8C6EE286B16ED2150D3FEFB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5539A52471BE86459A2C296977E8E6E7 /* VPImageCropper-dummy.m in Sources */,
+				1114ABCE9477D8BA43120B4D583C07FF /* VPImageCropperViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432C957D8D18B3A6C152197CACDA4D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A4DAD5D81A902D704292E0D47F08D1 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63F75A23C872D6F3FD45C54B9456AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2047A400EB772C3F6921454DF6BF7FF /* TNCheckBox.m in Sources */,
+				AFF996DC9253B9F418081574851313DB /* TNCheckBoxData.m in Sources */,
+				EDCF3CD50BE2A4B83A27B741923C2C71 /* TNCheckBoxGroup-dummy.m in Sources */,
+				2A0479138E8049ABC654583DBD91EFFA /* TNCheckBoxGroup.m in Sources */,
+				3A7592C39A85549AE5A7CF92EFA32DCA /* TNCircularCheckBox.m in Sources */,
+				D2123AC3E232878971D4A1105D94DA37 /* TNCircularCheckBoxData.m in Sources */,
+				05602BFCA575442EF99CA77E499C51B4 /* TNImageCheckbox.m in Sources */,
+				55F07DB6E4F6269AC35C64EDFD34751D /* TNImageCheckBoxData.m in Sources */,
+				4472CFA9D23B42CCD805B99DC6CE9E79 /* TNRectangularCheckBox.m in Sources */,
+				1A7A6594E656A2BC5FF14D097ADC1282 /* TNRectangularCheckBoxData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF659EFF40D426A3A32A82CDB98CC6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D2DC3E3DA44CD382B9B425F40E11C1 /* Alamofire-dummy.m in Sources */,
+				B0FB4B01682814B9E3D32F9DC4A5E762 /* Alamofire.swift in Sources */,
+				A3505FA2FB3067D53847AD288AC04F03 /* Download.swift in Sources */,
+				D75CA395D510E08C404E55F5BDAE55CE /* Error.swift in Sources */,
+				A2C172FE407C0BC3478ADCA91A6C9CEC /* Manager.swift in Sources */,
+				8399DBEE3E2D98EB1F466132E476F4D9 /* MultipartFormData.swift in Sources */,
+				4DE5FCC41D100B113B6645EA64410F16 /* ParameterEncoding.swift in Sources */,
+				FC14480CECE872865A9C6E584F886DA3 /* Request.swift in Sources */,
+				03F494989CC1A8857B68A317D5D6860F /* Response.swift in Sources */,
+				D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */,
+				82971968CBDAB224212EEB4607C9FB8D /* Result.swift in Sources */,
+				80F496237530D382A045A29654D8C11C /* ServerTrustPolicy.swift in Sources */,
+				FEF0D7653948988B804226129471C1EC /* Stream.swift in Sources */,
+				0681ADC8BAE2C3185F13487BAAB4D9DD /* Upload.swift in Sources */,
+				C75519F0450166A6F28126ECC7664E9C /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1841DE5B4B59417A4212D530D0E0E934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 432ECC54282C84882B482CCB4CF227FC /* Alamofire */;
+			targetProxy = 17CD3EF009596F709DD6CFF303133CEB /* PBXContainerItemProxy */;
+		};
+		6A92C305FC0A7E6528E46D5734F8A2CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VPImageCropper;
+			target = 479AA6A1AD3DAA795D9A9030996E1367 /* VPImageCropper */;
+			targetProxy = 83B5AD9B9106792B0915ADCCC4DCACE9 /* PBXContainerItemProxy */;
+		};
+		98D0C68239ADBFF5E8AE1E448255E698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APLTextView;
+			target = 225259C2C99D494F2EF890A968B59F5B /* APLTextView */;
+			targetProxy = 447397FE23C9E21385FF81B31692E931 /* PBXContainerItemProxy */;
+		};
+		B70EE44FD3D3E2E2035C36E3A9F666B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TNCheckBoxGroup;
+			target = D6B921C5A9081E62DE1475EAE1C20242 /* TNCheckBoxGroup */;
+			targetProxy = 93336CDCA1E36D84B551215987FED071 /* PBXContainerItemProxy */;
+		};
+		DCDEC9E4EB71603095B1B3CE722DACCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */;
+			targetProxy = DCEC8F2DBFDB8E996FADFF3BD2111C0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02312CFB480ECB03FC20B85477E5F71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		141E9F1626FE34EE75CDC2B7581B19F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62B60DDED086C86D1CEEA42A68C77F7 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36B347E8188963EDE2C9770CB99544A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743460E693F7DC2EC56A565C4671BF02 /* VPImageCropper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VPImageCropper/VPImageCropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VPImageCropper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VPImageCropper/VPImageCropper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VPImageCropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		610AC2ED16FE22BE96AEE1A16415A834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63C6B24BEFC3A541D67750D9BE5130CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7005A84DBC7453D6E57108313A9C4472 /* APLTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APLTextView/APLTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APLTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APLTextView/APLTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = APLTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		721191B41B993F7B2CEF27D73348E204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1B6CDFD95DC407C44025C73E0AE0B6 /* TNCheckBoxGroup.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TNCheckBoxGroup/TNCheckBoxGroup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TNCheckBoxGroup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TNCheckBoxGroup/TNCheckBoxGroup.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TNCheckBoxGroup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FC3E4CD6BC71B810531EFB8D92DB636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743460E693F7DC2EC56A565C4671BF02 /* VPImageCropper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VPImageCropper/VPImageCropper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VPImageCropper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VPImageCropper/VPImageCropper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VPImageCropper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3427C918F24207B5FD3A44958345D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B0F4469B277E6275A1E34E9AA54ADE /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7432B7E83CCEE63E14C52CAEA1CE40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1B6CDFD95DC407C44025C73E0AE0B6 /* TNCheckBoxGroup.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TNCheckBoxGroup/TNCheckBoxGroup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TNCheckBoxGroup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TNCheckBoxGroup/TNCheckBoxGroup.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TNCheckBoxGroup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7BBEA0D40C297802E3EBFA65B27C951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7005A84DBC7453D6E57108313A9C4472 /* APLTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APLTextView/APLTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APLTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APLTextView/APLTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = APLTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C993D8405F342C8E23BAD4EDF32D79E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B0F4469B277E6275A1E34E9AA54ADE /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF9333AF1E81B83A4C56BE7DC73ABC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62B60DDED086C86D1CEEA42A68C77F7 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DFD35E23E096E6184B8D2EFB5A5F09 /* Build configuration list for PBXNativeTarget "APLTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BBEA0D40C297802E3EBFA65B27C951 /* Debug */,
+				63C6B24BEFC3A541D67750D9BE5130CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ECAD3CE95CA19E5AFE91894C857527C /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141E9F1626FE34EE75CDC2B7581B19F3 /* Debug */,
+				EF9333AF1E81B83A4C56BE7DC73ABC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DA92976B83D85D1B5C582F8DB3625FF /* Build configuration list for PBXNativeTarget "VPImageCropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC3E4CD6BC71B810531EFB8D92DB636 /* Debug */,
+				36B347E8188963EDE2C9770CB99544A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2B2DA2F7F80D41B1FDB5FACFA4B3DE /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C993D8405F342C8E23BAD4EDF32D79E0 /* Debug */,
+				A3427C918F24207B5FD3A44958345D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4020207FE643057BD4DB8AE103259E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02312CFB480ECB03FC20B85477E5F71C /* Debug */,
+				610AC2ED16FE22BE96AEE1A16415A834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3BDC339AEA1C67DD9594FA87AE93F56 /* Build configuration list for PBXNativeTarget "TNCheckBoxGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721191B41B993F7B2CEF27D73348E204 /* Debug */,
+				B7432B7E83CCEE63E14C52CAEA1CE40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

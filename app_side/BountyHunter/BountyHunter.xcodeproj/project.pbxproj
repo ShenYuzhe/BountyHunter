@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5698EAB1C2204BB00778908 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5698EAA1C2204BB00778908 /* SettingsTableViewController.swift */; };
+		B5698EAF1C24C2AF00778908 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5698EAE1C24C2AF00778908 /* UIColorExtension.swift */; };
+		B5698EB11C24CB7E00778908 /* ZYHWebImageChcheCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5698EB01C24CB7E00778908 /* ZYHWebImageChcheCenter.swift */; };
+		B5698EB31C24CB8600778908 /* ZYHWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5698EB21C24CB8600778908 /* ZYHWebImage.swift */; };
+		B5698EB51C25C1E900778908 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5698EB41C25C1E900778908 /* EditProfileViewController.swift */; };
+		B5698EB71C25C78900778908 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5698EB61C25C78900778908 /* ProgressHUD.swift */; };
+		B5698EB91C25C7D300778908 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5698EB81C25C7D300778908 /* DatePickerDialog.swift */; };
+		B5698EBB1C2636E600778908 /* StarReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5698EBA1C2636E600778908 /* StarReview.swift */; };
+		B5E18B5A1BF430850048EF6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E18B591BF430850048EF6F /* AppDelegate.swift */; };
+		B5E18B5F1BF430850048EF6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E18B5D1BF430850048EF6F /* Main.storyboard */; };
+		B5E18B611BF430850048EF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E18B601BF430850048EF6F /* Assets.xcassets */; };
+		B5E18B641BF430850048EF6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E18B621BF430850048EF6F /* LaunchScreen.storyboard */; };
+		B5E18B6F1BF430850048EF6F /* BountyHunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E18B6E1BF430850048EF6F /* BountyHunterTests.swift */; };
+		B5E18B7A1BF430850048EF6F /* BountyHunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E18B791BF430850048EF6F /* BountyHunterUITests.swift */; };
+		B5E18B881BF435FA0048EF6F /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E18B871BF435FA0048EF6F /* PostViewController.swift */; };
+		B5E18B921BF4E8AD0048EF6F /* postCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E18B911BF4E8AD0048EF6F /* postCell.xib */; };
+		B5E18B981BF53CC00048EF6F /* myPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E18B971BF53CC00048EF6F /* myPostCell.xib */; };
+		B5ECF1321C122CFE001623EE /* nearbyPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF1311C122CFE001623EE /* nearbyPostViewController.swift */; };
+		B5ECF1361C122FEE001623EE /* postCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF1351C122FEE001623EE /* postCell.swift */; };
+		B5ECF13A1C134DEA001623EE /* myPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF1391C134DEA001623EE /* myPostCell.swift */; };
+		B5ECF1401C161F2D001623EE /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF13F1C161F2D001623EE /* LoginController.swift */; };
+		B5ECF1421C162BAD001623EE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF1411C162BAD001623EE /* RegisterViewController.swift */; };
+		B5ECF1441C163994001623EE /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF1431C163994001623EE /* Helper.swift */; };
+		B5ECF14A1C164B0E001623EE /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF1461C164B0E001623EE /* Animator.swift */; };
+		B5ECF14B1C164B0E001623EE /* PullToRefreshExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF1471C164B0E001623EE /* PullToRefreshExtension.swift */; };
+		B5ECF14C1C164B0E001623EE /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF1481C164B0E001623EE /* PullToRefreshView.swift */; };
+		B5ECF14E1C164C32001623EE /* structFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF14D1C164C32001623EE /* structFile.swift */; };
+		B5ECF1501C1663CB001623EE /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF14F1C1663CB001623EE /* constants.swift */; };
+		B5ECF1521C166E55001623EE /* BidDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF1511C166E55001623EE /* BidDetailViewController.swift */; };
+		B5ECF1731C1789C6001623EE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B5ECF1721C1789C6001623EE /* Podfile */; };
+		B5ECF1771C17D19B001623EE /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF1761C17D19B001623EE /* RoundImageView.swift */; };
+		B5ECF17D1C1888B0001623EE /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF17C1C1888B0001623EE /* ChatListViewController.swift */; };
+		B5ECF17F1C18959B001623EE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF17E1C18959B001623EE /* ChatViewController.swift */; };
+		B5ECF1811C18C3BF001623EE /* newPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECF1801C18C3BF001623EE /* newPostViewController.swift */; };
+		EBC1D7CE16412EEE752FB24E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A3317EF2735BE7B45B3970 /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5E18B6B1BF430850048EF6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5E18B4E1BF430840048EF6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5E18B551BF430840048EF6F;
+			remoteInfo = BountyHunter;
+		};
+		B5E18B761BF430850048EF6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5E18B4E1BF430840048EF6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5E18B551BF430840048EF6F;
+			remoteInfo = BountyHunter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73FE6629C4F745ACA1E8F3D1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B5698EAA1C2204BB00778908 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		B5698EAE1C24C2AF00778908 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		B5698EB01C24CB7E00778908 /* ZYHWebImageChcheCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYHWebImageChcheCenter.swift; sourceTree = "<group>"; };
+		B5698EB21C24CB8600778908 /* ZYHWebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYHWebImage.swift; sourceTree = "<group>"; };
+		B5698EB41C25C1E900778908 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		B5698EB61C25C78900778908 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		B5698EB81C25C7D300778908 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		B5698EBA1C2636E600778908 /* StarReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarReview.swift; sourceTree = "<group>"; };
+		B5E18B561BF430850048EF6F /* BountyHunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BountyHunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E18B591BF430850048EF6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5E18B5E1BF430850048EF6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5E18B601BF430850048EF6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5E18B631BF430850048EF6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5E18B651BF430850048EF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E18B6A1BF430850048EF6F /* BountyHunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BountyHunterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E18B6E1BF430850048EF6F /* BountyHunterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyHunterTests.swift; sourceTree = "<group>"; };
+		B5E18B701BF430850048EF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E18B751BF430850048EF6F /* BountyHunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BountyHunterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E18B791BF430850048EF6F /* BountyHunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyHunterUITests.swift; sourceTree = "<group>"; };
+		B5E18B7B1BF430850048EF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E18B871BF435FA0048EF6F /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		B5E18B911BF4E8AD0048EF6F /* postCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = postCell.xib; sourceTree = "<group>"; };
+		B5E18B971BF53CC00048EF6F /* myPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myPostCell.xib; sourceTree = "<group>"; };
+		B5ECF1311C122CFE001623EE /* nearbyPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nearbyPostViewController.swift; sourceTree = "<group>"; };
+		B5ECF1351C122FEE001623EE /* postCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postCell.swift; sourceTree = "<group>"; };
+		B5ECF1391C134DEA001623EE /* myPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myPostCell.swift; sourceTree = "<group>"; };
+		B5ECF13F1C161F2D001623EE /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		B5ECF1411C162BAD001623EE /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B5ECF1431C163994001623EE /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		B5ECF1461C164B0E001623EE /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		B5ECF1471C164B0E001623EE /* PullToRefreshExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshExtension.swift; sourceTree = "<group>"; };
+		B5ECF1481C164B0E001623EE /* PullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
+		B5ECF1491C164B0E001623EE /* Refresher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Refresher.h; sourceTree = "<group>"; };
+		B5ECF14D1C164C32001623EE /* structFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = structFile.swift; sourceTree = "<group>"; };
+		B5ECF14F1C1663CB001623EE /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		B5ECF1511C166E55001623EE /* BidDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidDetailViewController.swift; sourceTree = "<group>"; };
+		B5ECF1651C177DDD001623EE /* BountyHunter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BountyHunter-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5ECF1661C177FA9001623EE /* VPImageCropperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPImageCropperViewController.h; sourceTree = "<group>"; };
+		B5ECF1721C1789C6001623EE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5ECF1761C17D19B001623EE /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		B5ECF17C1C1888B0001623EE /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		B5ECF17E1C18959B001623EE /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B5ECF1801C18C3BF001623EE /* newPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newPostViewController.swift; sourceTree = "<group>"; };
+		C5A3317EF2735BE7B45B3970 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAAA31090009122A2F14E3E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5E18B531BF430840048EF6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC1D7CE16412EEE752FB24E /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E18B671BF430850048EF6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E18B721BF430850048EF6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D03C9F1AD693A5C62D26FFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5A3317EF2735BE7B45B3970 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5E18B4D1BF430840048EF6F = {
+			isa = PBXGroup;
+			children = (
+				B5ECF1721C1789C6001623EE /* Podfile */,
+				B5E18B581BF430850048EF6F /* BountyHunter */,
+				B5E18B6D1BF430850048EF6F /* BountyHunterTests */,
+				B5E18B781BF430850048EF6F /* BountyHunterUITests */,
+				B5E18B571BF430850048EF6F /* Products */,
+				BE10D257C579834DB5F7AB35 /* Pods */,
+				3D03C9F1AD693A5C62D26FFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5E18B571BF430850048EF6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5E18B561BF430850048EF6F /* BountyHunter.app */,
+				B5E18B6A1BF430850048EF6F /* BountyHunterTests.xctest */,
+				B5E18B751BF430850048EF6F /* BountyHunterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5E18B581BF430850048EF6F /* BountyHunter */ = {
+			isa = PBXGroup;
+			children = (
+				B5ECF1451C164B0E001623EE /* Refresher */,
+				B5E18B591BF430850048EF6F /* AppDelegate.swift */,
+				B5E18B5D1BF430850048EF6F /* Main.storyboard */,
+				B5698EAE1C24C2AF00778908 /* UIColorExtension.swift */,
+				B5ECF1801C18C3BF001623EE /* newPostViewController.swift */,
+				B5ECF17C1C1888B0001623EE /* ChatListViewController.swift */,
+				B5ECF17E1C18959B001623EE /* ChatViewController.swift */,
+				B5ECF1511C166E55001623EE /* BidDetailViewController.swift */,
+				B5E18B871BF435FA0048EF6F /* PostViewController.swift */,
+				B5E18B601BF430850048EF6F /* Assets.xcassets */,
+				B5ECF1761C17D19B001623EE /* RoundImageView.swift */,
+				B5E18B621BF430850048EF6F /* LaunchScreen.storyboard */,
+				B5E18B651BF430850048EF6F /* Info.plist */,
+				B5E18B911BF4E8AD0048EF6F /* postCell.xib */,
+				B5E18B971BF53CC00048EF6F /* myPostCell.xib */,
+				B5ECF1391C134DEA001623EE /* myPostCell.swift */,
+				B5ECF1311C122CFE001623EE /* nearbyPostViewController.swift */,
+				B5ECF1351C122FEE001623EE /* postCell.swift */,
+				B5ECF13F1C161F2D001623EE /* LoginController.swift */,
+				B5ECF1411C162BAD001623EE /* RegisterViewController.swift */,
+				B5ECF1431C163994001623EE /* Helper.swift */,
+				B5ECF14D1C164C32001623EE /* structFile.swift */,
+				B5ECF14F1C1663CB001623EE /* constants.swift */,
+				B5ECF1651C177DDD001623EE /* BountyHunter-Bridging-Header.h */,
+				B5698EAA1C2204BB00778908 /* SettingsTableViewController.swift */,
+				B5698EB01C24CB7E00778908 /* ZYHWebImageChcheCenter.swift */,
+				B5698EB21C24CB8600778908 /* ZYHWebImage.swift */,
+				B5698EB41C25C1E900778908 /* EditProfileViewController.swift */,
+			);
+			path = BountyHunter;
+			sourceTree = "<group>";
+		};
+		B5E18B6D1BF430850048EF6F /* BountyHunterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5E18B6E1BF430850048EF6F /* BountyHunterTests.swift */,
+				B5E18B701BF430850048EF6F /* Info.plist */,
+			);
+			path = BountyHunterTests;
+			sourceTree = "<group>";
+		};
+		B5E18B781BF430850048EF6F /* BountyHunterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5E18B791BF430850048EF6F /* BountyHunterUITests.swift */,
+				B5E18B7B1BF430850048EF6F /* Info.plist */,
+			);
+			path = BountyHunterUITests;
+			sourceTree = "<group>";
+		};
+		B5ECF1451C164B0E001623EE /* Refresher */ = {
+			isa = PBXGroup;
+			children = (
+				B5698EBA1C2636E600778908 /* StarReview.swift */,
+				B5698EB81C25C7D300778908 /* DatePickerDialog.swift */,
+				B5698EB61C25C78900778908 /* ProgressHUD.swift */,
+				B5ECF1661C177FA9001623EE /* VPImageCropperViewController.h */,
+				B5ECF1461C164B0E001623EE /* Animator.swift */,
+				B5ECF1471C164B0E001623EE /* PullToRefreshExtension.swift */,
+				B5ECF1481C164B0E001623EE /* PullToRefreshView.swift */,
+				B5ECF1491C164B0E001623EE /* Refresher.h */,
+			);
+			path = Refresher;
+			sourceTree = "<group>";
+		};
+		BE10D257C579834DB5F7AB35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73FE6629C4F745ACA1E8F3D1 /* Pods.debug.xcconfig */,
+				ECAAA31090009122A2F14E3E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5E18B551BF430840048EF6F /* BountyHunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E18B7E1BF430850048EF6F /* Build configuration list for PBXNativeTarget "BountyHunter" */;
+			buildPhases = (
+				7908B64F5E367D326CCACB0D /* Check Pods Manifest.lock */,
+				B5E18B521BF430840048EF6F /* Sources */,
+				B5E18B531BF430840048EF6F /* Frameworks */,
+				B5E18B541BF430840048EF6F /* Resources */,
+				42965032A07256F2C2CD818C /* Embed Pods Frameworks */,
+				D5527BDF4589CC2FB7CA4D59 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BountyHunter;
+			productName = BountyHunter;
+			productReference = B5E18B561BF430850048EF6F /* BountyHunter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5E18B691BF430850048EF6F /* BountyHunterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E18B811BF430850048EF6F /* Build configuration list for PBXNativeTarget "BountyHunterTests" */;
+			buildPhases = (
+				B5E18B661BF430850048EF6F /* Sources */,
+				B5E18B671BF430850048EF6F /* Frameworks */,
+				B5E18B681BF430850048EF6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5E18B6C1BF430850048EF6F /* PBXTargetDependency */,
+			);
+			name = BountyHunterTests;
+			productName = BountyHunterTests;
+			productReference = B5E18B6A1BF430850048EF6F /* BountyHunterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5E18B741BF430850048EF6F /* BountyHunterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5E18B841BF430850048EF6F /* Build configuration list for PBXNativeTarget "BountyHunterUITests" */;
+			buildPhases = (
+				B5E18B711BF430850048EF6F /* Sources */,
+				B5E18B721BF430850048EF6F /* Frameworks */,
+				B5E18B731BF430850048EF6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5E18B771BF430850048EF6F /* PBXTargetDependency */,
+			);
+			name = BountyHunterUITests;
+			productName = BountyHunterUITests;
+			productReference = B5E18B751BF430850048EF6F /* BountyHunterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5E18B4E1BF430840048EF6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "junchao zhang";
+				TargetAttributes = {
+					B5E18B551BF430840048EF6F = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = X69K79RRKE;
+					};
+					B5E18B691BF430850048EF6F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B5E18B551BF430840048EF6F;
+					};
+					B5E18B741BF430850048EF6F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B5E18B551BF430840048EF6F;
+					};
+				};
+			};
+			buildConfigurationList = B5E18B511BF430840048EF6F /* Build configuration list for PBXProject "BountyHunter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5E18B4D1BF430840048EF6F;
+			productRefGroup = B5E18B571BF430850048EF6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5E18B551BF430840048EF6F /* BountyHunter */,
+				B5E18B691BF430850048EF6F /* BountyHunterTests */,
+				B5E18B741BF430850048EF6F /* BountyHunterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5E18B541BF430840048EF6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ECF1731C1789C6001623EE /* Podfile in Resources */,
+				B5E18B641BF430850048EF6F /* LaunchScreen.storyboard in Resources */,
+				B5E18B611BF430850048EF6F /* Assets.xcassets in Resources */,
+				B5E18B981BF53CC00048EF6F /* myPostCell.xib in Resources */,
+				B5E18B5F1BF430850048EF6F /* Main.storyboard in Resources */,
+				B5E18B921BF4E8AD0048EF6F /* postCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E18B681BF430850048EF6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E18B731BF430850048EF6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42965032A07256F2C2CD818C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7908B64F5E367D326CCACB0D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5527BDF4589CC2FB7CA4D59 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5E18B521BF430840048EF6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ECF13A1C134DEA001623EE /* myPostCell.swift in Sources */,
+				B5698EB11C24CB7E00778908 /* ZYHWebImageChcheCenter.swift in Sources */,
+				B5698EB71C25C78900778908 /* ProgressHUD.swift in Sources */,
+				B5ECF1811C18C3BF001623EE /* newPostViewController.swift in Sources */,
+				B5ECF1401C161F2D001623EE /* LoginController.swift in Sources */,
+				B5ECF17D1C1888B0001623EE /* ChatListViewController.swift in Sources */,
+				B5ECF1421C162BAD001623EE /* RegisterViewController.swift in Sources */,
+				B5ECF1321C122CFE001623EE /* nearbyPostViewController.swift in Sources */,
+				B5ECF14E1C164C32001623EE /* structFile.swift in Sources */,
+				B5698EAF1C24C2AF00778908 /* UIColorExtension.swift in Sources */,
+				B5ECF1771C17D19B001623EE /* RoundImageView.swift in Sources */,
+				B5698EB51C25C1E900778908 /* EditProfileViewController.swift in Sources */,
+				B5E18B881BF435FA0048EF6F /* PostViewController.swift in Sources */,
+				B5ECF1501C1663CB001623EE /* constants.swift in Sources */,
+				B5698EB91C25C7D300778908 /* DatePickerDialog.swift in Sources */,
+				B5698EBB1C2636E600778908 /* StarReview.swift in Sources */,
+				B5ECF14C1C164B0E001623EE /* PullToRefreshView.swift in Sources */,
+				B5E18B5A1BF430850048EF6F /* AppDelegate.swift in Sources */,
+				B5ECF17F1C18959B001623EE /* ChatViewController.swift in Sources */,
+				B5ECF1521C166E55001623EE /* BidDetailViewController.swift in Sources */,
+				B5698EB31C24CB8600778908 /* ZYHWebImage.swift in Sources */,
+				B5ECF14A1C164B0E001623EE /* Animator.swift in Sources */,
+				B5ECF14B1C164B0E001623EE /* PullToRefreshExtension.swift in Sources */,
+				B5698EAB1C2204BB00778908 /* SettingsTableViewController.swift in Sources */,
+				B5ECF1361C122FEE001623EE /* postCell.swift in Sources */,
+				B5ECF1441C163994001623EE /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E18B661BF430850048EF6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E18B6F1BF430850048EF6F /* BountyHunterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E18B711BF430850048EF6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E18B7A1BF430850048EF6F /* BountyHunterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5E18B6C1BF430850048EF6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5E18B551BF430840048EF6F /* BountyHunter */;
+			targetProxy = B5E18B6B1BF430850048EF6F /* PBXContainerItemProxy */;
+		};
+		B5E18B771BF430850048EF6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5E18B551BF430840048EF6F /* BountyHunter */;
+			targetProxy = B5E18B761BF430850048EF6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5E18B5D1BF430850048EF6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E18B5E1BF430850048EF6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5E18B621BF430850048EF6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E18B631BF430850048EF6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5E18B7C1BF430850048EF6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5E18B7D1BF430850048EF6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5E18B7F1BF430850048EF6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73FE6629C4F745ACA1E8F3D1 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = NO;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public/VPImageCropper\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
+				INFOPLIST_FILE = BountyHunter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public/VPImageCropper\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = junchao.zhang.BountyHunter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BountyHunter/BountyHunter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		B5E18B801BF430850048EF6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECAAA31090009122A2F14E3E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = NO;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public/VPImageCropper\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
+				INFOPLIST_FILE = BountyHunter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public/VPImageCropper\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = junchao.zhang.BountyHunter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BountyHunter/BountyHunter-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		B5E18B821BF430850048EF6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BountyHunterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = junchao.zhang.BountyHunterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BountyHunter.app/BountyHunter";
+			};
+			name = Debug;
+		};
+		B5E18B831BF430850048EF6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BountyHunterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = junchao.zhang.BountyHunterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BountyHunter.app/BountyHunter";
+			};
+			name = Release;
+		};
+		B5E18B851BF430850048EF6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BountyHunterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = junchao.zhang.BountyHunterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BountyHunter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B5E18B861BF430850048EF6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BountyHunterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = junchao.zhang.BountyHunterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BountyHunter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5E18B511BF430840048EF6F /* Build configuration list for PBXProject "BountyHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E18B7C1BF430850048EF6F /* Debug */,
+				B5E18B7D1BF430850048EF6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5E18B7E1BF430850048EF6F /* Build configuration list for PBXNativeTarget "BountyHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E18B7F1BF430850048EF6F /* Debug */,
+				B5E18B801BF430850048EF6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5E18B811BF430850048EF6F /* Build configuration list for PBXNativeTarget "BountyHunterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E18B821BF430850048EF6F /* Debug */,
+				B5E18B831BF430850048EF6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5E18B841BF430850048EF6F /* Build configuration list for PBXNativeTarget "BountyHunterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5E18B851BF430850048EF6F /* Debug */,
+				B5E18B861BF430850048EF6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5E18B4E1BF430840048EF6F /* Project object */;
+}

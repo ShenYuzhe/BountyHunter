@@ -1,0 +1,10 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/RongCloudIMKit/Rong_Cloud_iOS_SDK_v2_2_11_dev" "${PODS_ROOT}/RongCloudIMKit/Rong_Cloud_iOS_SDK_v2_2_11_dev"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/RongCloudIMKit"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/APLTextView.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Alamofire.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/MBProgressHUD.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/TNCheckBoxGroup.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/VPImageCropper.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/RongCloudIMKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"c++abi" -l"sqlite3" -l"stdc++" -l"xml2" -l"z" -framework "APLTextView" -framework "AVFoundation" -framework "Alamofire" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreAudio" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreTelephony" -framework "CoreVideo" -framework "ImageIO" -framework "MBProgressHUD" -framework "MapKit" -framework "OpenGLES" -framework "QuartzCore" -framework "RongIMKit" -framework "RongIMLib" -framework "SystemConfiguration" -framework "TNCheckBoxGroup" -framework "UIKit" -framework "VPImageCropper"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods
+PODS_ROOT = ${SRCROOT}/Pods

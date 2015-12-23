@@ -1,0 +1,6 @@
+framework module APLTextView {
+  umbrella header "APLTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}
